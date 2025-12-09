@@ -60,7 +60,7 @@ export default function Doctors() {
   return (
     <div className="p-8 bg-gray-50 min-h-screen">
       <div className="flex justify-between items-center mb-8">
-        <h1 className="text-3xl font-bold text-gray-800">👨‍⚕️ Doctors</h1>
+        <h1 className="text-3xl font-bold text-gray-800"> Doctors</h1>
         <button onClick={() => setShowForm(!showForm)} className="bg-purple-600 text-white px-6 py-2 rounded-lg hover:bg-purple-700">
           {showForm ? '✕ Close' : '+ Add Doctor'}
         </button>
